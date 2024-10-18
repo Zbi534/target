@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Win a $500 Target eGiftCard now!">
+    <title>Win a $500 Target eGiftCard now!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjv6rD_6ij4-g524J_u7-4A6hqzWRiVHnn4Q&s') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: white;
+        }
+        .container {
+            max-width: 90%;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #333;
+            font-size: 22px;
+        }
+        p {
+            color: #666;
+            font-size: 16px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+        .cta-button:hover {
+            background-color: #218838;
+        }
+        footer {
+            margin-top: 20px;
+            color: #aaa;
+            font-size: 14px;
+        }
+        img {
+            width: 80%;
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+        .testimonials {
+            margin-top: 20px;
+            display: block;
+            border: 2px solid #000;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        .testimonial {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 10px;
+            color: #003366;
+            font-style: italic;
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .testimonial img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .testimonials h2 {
+            color: #000000;
+            font-size: 20px;
+        }
+
+        /* Countdown */
+        #countdown {
+            font-size: 20px;
+            margin-top: 15px;
+            color: #ff8800;
+        }
+
+        /* Media queries for mobile compatibility */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 16px;
+            }
+            .cta-button {
+                padding: 10px 15px;
+                font-size: 16px;
+            }
+            .testimonial {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .testimonial img {
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Win a $500 Target eGiftCard now!</h1>
+        <a href="https://smrturl.co/a/sa12d76e997/419?s1=">
+            <img src="https://event.gives/storybookwish/items/285656/image/Storybook_of_Wishes_A_Quility_Impact_Event.jpg" alt="$500 Target eGiftCard">
+        </a>
+        <p>Enter now for a chance to win a $500 Target eGiftCard! Complete the last step to enter the draw.</p>
+        <a href="https://smrturl.co/a/sa12d76e997/419?s1=" class="cta-button">Enter Now!</a>
+        <div id="countdown"></div>
+
+        <div class="testimonials">
+            <h2>Winner Testimonials</h2>
+            <div class="testimonial">
+                <img src="https://randomuser.me/api/portraits/men/4.jpg" alt="Jake">
+                <div>
+                    <strong>Jake</strong>: "I can't believe I won the $500 Target eGiftCard! It made my shopping trip amazing!"
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="https://randomuser.me/api/portraits/women/4.jpg" alt="Lily">
+                <div>
+                    <strong>Lily</strong>: "Winning the $500 Target eGiftCard was a dream come true! I bought so much for my family!"
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="https://randomuser.me/api/portraits/men/5.jpg" alt="Ryan">
+                <div>
+                    <strong>Ryan</strong>: "Thank you for the $500 Target eGiftCard! I treated myself to a new gaming setup!"
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="https://randomuser.me/api/portraits/women/5.jpg" alt="Emily">
+                <div>
+                    <strong>Emily</strong>: "I was so happy to win the $500 Target eGiftCard! It helped me get everything on my wish list!"
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="https://randomuser.me/api/portraits/men/6.jpg" alt="Kevin">
+                <div>
+                    <strong>Kevin</strong>: "This $500 Target eGiftCard made my day! I got gifts for everyone!"
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="https://randomuser.me/api/portraits/women/6.jpg" alt="Madison">
+                <div>
+                    <strong>Madison</strong>: "Winning this $500 Target eGiftCard was incredible! I love shopping at Target!"
+                </div>
+            </div>
+        </div>
+        
+        <footer>Good luck to everyone! 🍀</footer>
+    </div>
+
+    <script>
+        // Countdown
+        let timeLeft = 25 * 60; // 25 minutes in seconds
+
+        function updateCountdown() {
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60;
+            document.getElementById("countdown").innerText = 
+                `Time left: ${minutes}m ${seconds < 10 ? '0' : ''}${seconds}s`;
+            timeLeft--;
+
+            if (timeLeft < 0) {
+                clearInterval(timerInterval);
+                document.getElementById("countdown").innerText = "Time's up!";
+            }
+        }
+
+        const timerInterval = setInterval(updateCountdown, 1000); // Update every second
+    </script>
+
+</body>
+</html>
